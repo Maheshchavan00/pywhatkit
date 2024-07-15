@@ -1,0 +1,10 @@
+import pywhatkit
+
+# Ensure the phone number is in the correct format
+phone_number = '+91' # Example format with +91 for India
+message = 'hi buddy'
+hour =''  #time in hour
+minute = ''  #time in minutes
+
+# Send WhatsApp message
+pywhatkit.sendwhatmsg(phone_number, message, hour, minute)
